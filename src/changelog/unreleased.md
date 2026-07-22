@@ -43,3 +43,4 @@ changelog entry.
 ### Fixed
 
 - On macOS, fix crash on macOS 26 by using objc2's `relax-sign-encoding` feature.
+- On Windows, prevent incorrect shifting when dragging window onto a monitor with different DPI.
